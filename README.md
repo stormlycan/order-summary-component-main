@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [submition](https://your-solution-url.com)
-- Live Site URL: [live url](https://your-live-site-url.com)
+- Solution URL: [submition](https://github.com/stormlycan/order-summary-component-main.git)
+- Live Site URL: [live url](https://stormlycan.github.io/order-summary-component-main/)
 
 
 ### Built with
