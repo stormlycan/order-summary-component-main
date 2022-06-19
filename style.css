@@ -18,6 +18,7 @@ body {
     font-family: 'Red Hat Display', sans-serif;
     font-size: 16px;
     align-items: center;
+    height: 100%;
     background-color: var(--Pale-blue);
     text-align: center;
 }
