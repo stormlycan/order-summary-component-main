@@ -6,9 +6,10 @@
     --Bright-blue: hsl(245, 75%, 52%);
     --Very-pale-blue: hsl(225, 100%, 98%);
     --Desaturated-blue: hsl(224, 23%, 55%);
-    --Dark-blue: hsl(223, 47%, 23%);}
+    --Dark-blue: hsl(223, 47%, 23%);
+}
 
-body{
+body {
     font-family: 'Red Hat Display', sans-serif;
     display: flex;
     align-items: center;
@@ -17,29 +18,45 @@ body{
     vertical-align: center;
 }
 
-@media  screen and (max-width: 375px) {
-    body{
+@media screen and (max-width: 375px) {
+    body {
         background-image: url(images/pattern-background-mobile.svg);
         background-size: cover;
         background-position: center;
     }
+
+    .container {
+        width: 300px;
+    }
 }
+
 @media screen and (min-width: 376px) {
-    body{
+    body {
         background-image: url(images/pattern-background-desktop.svg);
         background-size: cover;
         background-position: center
     }
+
+    .container {
+        width: 450px;
+    }
 }
 
-.container{
+.container {
     background-color: var(--Very-pale-blue);
     margin: auto;
     border-radius: 15px;
-    width: auto;
+    text-align: center;
 }
 
+.hero {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
 
+.heading{
+    padding: 10px;
+}
 
 .attribution {
     font-size: 11px;
