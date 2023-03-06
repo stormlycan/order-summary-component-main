@@ -12,6 +12,7 @@ body{
     font-family: 'Red Hat Display', sans-serif;
     display: flex;
     align-items: center;
+    min-height: 100vh;
     background-color: var(--Pale-blue);
     vertical-align: center;
 }
@@ -34,6 +35,8 @@ body{
 .container{
     background-color: var(--Very-pale-blue);
     margin: auto;
+    border-radius: 15px;
+    width: auto;
 }
 
 
